@@ -1,0 +1,40 @@
+*{
+	padding: o;
+	margin-left: 0;
+	font-family: sans-serif, serif;
+    font-weight: 400;
+}
+
+body{
+	background-color: white;
+}
+
+div#wrapper{
+	height: 800px;
+	width: 800px;
+	/*background-color: pink;*/
+	margin: auto;
+}
+
+.reg_container{
+	height: 700px;
+	width: 350px;
+	background-color: red;
+	display: inline-block;
+	float: left;
+}
+
+#reg_form label{
+	height: 20px;
+	width: 140px;
+
+}
+
+.login_container{
+	height: 700px;
+	width: 350px;
+	background-color: blue;
+	display: inline-block;
+	float: right;
+}
+

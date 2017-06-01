@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>beltexam_pokes</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'django_beltexam/pokes.css' %}">
+</head>
+<body>
+    <div id="wrapper">
+        <h1><strong>Welcome!{{session['id]}}</strong></h1>
+        <h2>3 people pokes you!</h2>
+        <div id="ranking">
+            <ul>
+                <lo>Peter pokes you 15 times
+                <lo>John pokes you 10 times
+                <lo>David pokes you 5 times
+            </ul>
+        <h2>People you may want to poke:</h2>
+        <form action=""> 
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Alias</th>
+                    <th>Email Address</th>
+                    <th>Poke History</th>
+                    <th>Action</th>
+                 </tr>
+                 <tr>
+                    {% for message in messages %}
+                        {}
+                    {% endfor %}
+    
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                 </tr>
+            </table>
+        </form>
+    </div><!-- end of wrapper -->
+</body>
+</html>
+                <!-- {% if messages %}
+                    {% for message in messages %}
+                        {{ message }}
+                    {% endfor %}
+                {% endif %} -->
+
+
+            <!-- <form action="/register" id="reg_form" method="post">
+                
+               
+            </form> -->
+
+
+
+
+
+
+
+
+
